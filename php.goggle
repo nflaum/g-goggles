@@ -1,0 +1,7 @@
+! name: No PHP
+! description: Exclude PHP and query URLs
+! public: true
+! author: Noah
+
+*/*.php$discard
+*?$discard
