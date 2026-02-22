@@ -1,7 +1,7 @@
-! name: No PHP
-! description: Exclude PHP and query URLs
-! public: true
-! author: Noah
+! name: No PHP or Query URLs
+! description: Excludes all URLs containing .php or query strings with ?
+! public: false
+! author: Your Name
 
 */*.php$discard
 *?$discard
